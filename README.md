@@ -1,2 +1,2 @@
-# crypto_price_tracking
+# crypto_price_track
 web scrapping project
