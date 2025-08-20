@@ -53,7 +53,7 @@ df["Timestamp"] = time.strftime("%Y-%m-%d %H:%M:%S")
 file_name = "crypto_data.csv"
 df.to_csv(file_name, mode='a', index=False, header=not os.path.exists(file_name))
 
-print(" Data saved to", file_name)
+print("s Data saved to", file_name)
 
 # === FILTERING ===
 filtered_df = df[(df["Price"] > PRICE_THRESHOLD) & (df["24h Change"] > CHANGE_THRESHOLD)]
